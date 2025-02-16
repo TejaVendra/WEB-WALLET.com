@@ -1,0 +1,31 @@
+*{
+    scrollbar-width: none;
+}
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    border: 0;
+    font-family: "Bona Nova SC", serif;
+}
+main{
+    text-align: center;
+    height: 100vh;
+    position: relative;
+    align-content: center;
+   
+}
+p{
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+
+#dotAnimation::after{
+    content: "";
+    animation: dotsAnimation 3s infinite;
+}
+@keyframes dotsAnimation{
+    0%{content: " .";}
+    33%{content: " ..";}
+    66%{content: " ...";}
+    100%{content: " ";}
+}

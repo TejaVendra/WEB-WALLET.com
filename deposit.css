@@ -1,0 +1,107 @@
+*{
+    scrollbar-width: none;
+}
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(175, 181, 242);
+}
+button{
+    cursor: pointer;
+    font-size: 10px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-family: "Bona Nova SC", serif;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: #A9A9A9;
+}
+button:hover{
+    box-shadow: 0px 0px 10px rgb(118, 105, 105);
+}
+main{
+    border: 2px solid red;
+}
+
+.row01{
+    padding: 3px;
+}
+.row02{
+    padding: 3px;
+}
+.row03{
+    padding: 3px;
+}
+.row04{
+    padding: 3px;
+}
+input{
+    width: 145px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+.pinAsking{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    gap: 10px;
+    text-align: center;
+}
+main{
+     border: 2px solid black;
+     padding: 40px 30px;
+     border-radius: 6px;
+     box-shadow: 0px 0px 20px cyan;
+     border: none;
+     background-color: white;
+}
+.pinCheckCondition{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+}
+.inputFromUser{
+    padding: 3px;
+}
+.enterButton{
+    padding: 3px;
+}
+.heading{
+    font-family: "Bona Nova SC", serif;
+}
+#cancelButton{
+    padding: 10px 11px;
+}
+#enterButton{
+    padding: 11px 17px;
+    margin-left: 2px;
+    margin-top: 4px;
+    color: black;
+    font-size: 19px;
+}
+#clearButton{
+    padding: 10px 12px;
+    margin-left: 3px;
+}
+.KeyButtons{
+    padding: 3px;
+   
+}
+
+#alertMessage{
+    font-family: "Bona Nova SC", serif;
+    color: red;
+    font-size: 1.3rem;
+}
+#instractions{
+    color: rgb(9, 255, 38);
+}
+footer{
+    text-align: center;
+    font-family: "Bona Nova SC", serif;
+}

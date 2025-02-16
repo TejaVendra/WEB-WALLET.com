@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WED WALLET</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="images/logo-2.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+  </style>
+</head>
+<body>
+  <!-- Intro Section -->
+  <div id="introSection" class="logoContainer">
+    <div class="logoAnimation">
+      <video autoplay muted id="logoAnimationIntro">
+        <source src="videos/intro-of-website.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+
+  <!-- Login Form Section (Hidden Initially) -->
+  <div id="loginSection" class="loginForm" style="display: none;">
+    <div class="formBox">
+      <section class="headingForLogin">
+        <p class="subHead">ATM</p>
+        <h1>Login</h1>
+      </section>
+      <main>
+        <form method="get">
+          <label for="Name"></label>
+          <input type="text" placeholder="Name" class="Name" name="Name" id="Name"><br>
+          <label for="atmNumber"></label>
+          <input type="text" placeholder="Last six digits of ATM card number" class="atmNumber" name="atmNumber" maxlength="6" min="100000" max="600000" id="atmNumber"><br>
+          <button id="enterButton" type="button" class="enterButton">Enter</button>
+          <p id="notice"></p>
+        </form>
+      </main>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© [2025] Teja Vendra. All Rights Reserved.</p>
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+</html>

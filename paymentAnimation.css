@@ -1,0 +1,75 @@
+ /* Container for the animation */
+ body{
+    padding: 0;
+    margin: 0;
+    font-family: "Bona Nova SC", serif;
+ }
+ .payment-success-container {
+    text-align: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  /* Circle for the checkmark */
+  .checkmark-circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #4caf50; /* Green color */
+    margin: 0 auto 20px;
+    position: relative;
+    animation: scaleCircle 0.5s ease-in-out;
+  }
+  
+  /* Checkmark symbol */
+  .checkmark {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    height: 50px;
+    width: 25px;
+    border-bottom: 5px solid white;
+    border-right: 5px solid white;
+    opacity: 0;
+    animation: drawCheckmark 0.5s ease-in-out 0.5s forwards;
+  }
+  
+  /* Text styling */
+  h2 {
+    color: #4caf50;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    color: #666;
+  }
+  
+  /* Animations */
+  @keyframes scaleCircle {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes drawCheckmark {
+    0% {
+      opacity: 0;
+      height: 0;
+      width: 0;
+    }
+    100% {
+      opacity: 1;
+      height: 50px;
+      width: 25px;
+    }
+  }

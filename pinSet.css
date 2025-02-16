@@ -1,0 +1,70 @@
+.emoji{
+    font-size: 100px;
+}
+*{
+    scrollbar-width: none;
+}
+body{
+    padding: 0;
+    margin: 0;
+}
+footer{
+  text-align: center;
+  font-family: "Bona Nova SC", serif;
+}
+main {
+    border: 2px solid blue;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px grey;
+    justify-content: center;
+    animation: LED 2s ease infinite;
+    
+  }
+  @keyframes LED{
+    0%{
+        border: 5px solid blue;
+    }33%{
+        border: 5px solid red;
+    }66%{
+        border: 5px solid green;
+    }100%{
+        border: 5px solid yellow;
+    }
+  }
+  section {
+    width: 350px;
+    position: relative;
+    text-align: center;
+  }
+  .container {
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: rgb(185, 240, 240);
+  }
+  #backButton{
+    padding: 10px 20px;
+    font-size: 20px;
+    box-shadow: 0px 0PX 10px rgb(138, 138, 138);
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(5, 71, 252);
+    color: white;
+
+
+  }
+  #backButton:hover{
+    box-shadow: 0px 0PX 10px rgb(78, 78, 78);
+  }
+  .notice{
+    font-size: 30px;
+  }
+  

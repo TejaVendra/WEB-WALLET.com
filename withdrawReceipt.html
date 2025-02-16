@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB WALLET</title>
+    <link rel="stylesheet" href="withdrawReceipt.css">
+    <link rel="shortcut icon" href="images/logo-2.jpg" >
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=swap');
+    </style>
+</head>
+<body>
+
+    <div class="receiptForWithdraw">
+        <div class="container">
+            <main>
+                <div class="heading">
+                    WithDraw Receipt
+                </div><br>
+                <div class="notice">
+                    <p class="notice">*press the <b>Print</b> button to print the receipt</p>
+                </div>
+                <div id="DateAndTime">
+
+                </div>
+                <div class="displayTheWithdrawAmouny">
+                    <p >withdraw amount : <span id="test"></span></p>
+                </div><br>
+                <div class="buttons">
+                    <div class="backButton">
+                      <button id="backBtn" type="submit">Back</button>
+                    </div><br>
+                    <div class="printButton">
+                       <button id="printBtn"  type="submit">Print</button>
+                    </div> 
+                </div><br><br><br>
+                <div class="greetingToUser">
+                      Thanks for using WEB ATM
+                </div>
+
+            </main>
+        </div>
+    </div>
+    <footer>
+        <p>© [2025] Teja Vendra. All Rights Reserved.</p>
+       </footer>
+    
+
+    <script type="module" src="withdrawReceipt.js"></script>
+</body>
+</html>

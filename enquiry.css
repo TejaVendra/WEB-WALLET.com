@@ -1,0 +1,102 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    font-family: "Bona Nova SC", serif;
+  }
+  
+  /* Container Styles */
+  .container {
+    text-align: center;
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+  }
+  
+  /* Main Content Styles */
+  main {
+    border: 2px solid red;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 10px grey;
+  }
+  
+  /* Section Styles */
+  section {
+    width: 350px;
+    position: relative;
+    text-align: left;
+  }
+  
+  /* Headings Styles */
+  .headings h2 {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Instructions Styles */
+  .instructionsToTheUser p {
+    font-size: 20px;
+    color: #555;
+    margin: 0 0 20px 0;
+    text-align: center;
+  }
+  
+  /* Date and Time Styles */
+  .showsTheDate p {
+    font-size: 16px;
+    color: #333;
+    margin: 0 0 15px 0;
+    text-align: center;
+  }
+  
+  /* Account Number Styles */
+  .showsTheAccountNumber p {
+    font-size: 16px;
+    color: #333;
+    margin: 0 0 15px 0;
+  }
+  
+  /* Balance Styles */
+  .displaysAvailableBalance p {
+    font-size: 16px;
+    color: #333;
+    margin: 0 0 20px 0;
+  }
+  footer{
+    text-align: center;
+    font-family: "Bona Nova SC", serif;
+}
+  /* Button Styles */
+  .printTheReceiptButton button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  .printTheReceiptButton{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    font-family: "Bona Nova SC", serif;
+    justify-content: space-evenly;
+  }
+  
+  .printTheReceiptButton button:hover {
+    background-color: #0056b3;
+  }
+  .instractions{
+    font-size: 14px;
+  }

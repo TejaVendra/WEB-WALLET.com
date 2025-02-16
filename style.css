@@ -1,0 +1,114 @@
+* {
+    scrollbar-width: none;
+  }
+  
+  body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(12, 15, 34);
+  }
+  
+  /* Intro Section Styles */
+  .logoContainer {
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    display: flex;
+  }
+  
+  #logoAnimationIntro {
+    height: 500px;
+    width: 100%;
+  }
+  
+  /* Login Form Styles */
+  .loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 100vh;
+    background-color: white;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+  }
+  
+  .formBox {
+    border: 2px solid black;
+    padding: 40px 30px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 20px gray;
+    border: none;
+  }
+  
+  .headingForLogin {
+    text-align: center;
+    color: blue;
+    font-family: "Bona Nova SC", serif;
+    font-size: 25px;
+    letter-spacing: 0.6cap;
+    cursor: no-drop;
+  }
+  
+  .enterButton {
+    color: white;
+    background-color: green;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    font-family: "Bona Nova SC", serif;
+    font-size: 1.2rem;
+  }
+  
+  .enterButton:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgb(90, 170, 90);
+  }
+  
+  input {
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.3s ease-in-out;
+    border: 2px solid rgb(12, 239, 224);
+  }
+  
+  input:hover {
+    border: 2px solid rgb(9, 9, 190);
+  }
+  
+  input::placeholder {
+    font-family: "Bona Nova SC", serif;
+    color: black;
+    transition: transform 0.3s ease-in-out, font-size 0.3s ease-in-out;
+  }
+  
+  input:hover::placeholder,
+  input:focus::placeholder {
+    transform: translateY(-11px);
+    font-size: 14px;
+    opacity: 0.8;
+  }
+  
+  footer {
+    text-align: center;
+    font-family: "Bona Nova SC", serif;
+  }
+  
+  .subHead {
+    margin-bottom: -40px;
+    margin-left: -80px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  #notice {
+    color: red;
+    font-family: "Bona Nova SC", serif;
+  }
